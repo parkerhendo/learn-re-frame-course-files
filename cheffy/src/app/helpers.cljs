@@ -2,6 +2,7 @@
   (:require [cljs-time.core :as t]))
 
 ;; https://stackoverflow.com/questions/32511405/how-would-time-ago-function-implementation-look-like-in-clojure
+
 (defn time-ago
   [timestamp]
   (let [units [{:name "second" :limit 60 :in-second 1}
